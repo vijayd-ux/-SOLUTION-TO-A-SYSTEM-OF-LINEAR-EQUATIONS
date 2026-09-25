@@ -18,12 +18,19 @@ End the program
 #Developed by: VIJAY D
 #RegisterNumber: 212225230300
 import os
+
 os.environ["OPENBLAS_NUM_THREADS"]="1"
+
 import numpy as np
+
 A=[[1,3],[2,5]]
+
 B= np.array([5,-3])
+
 C=np.linalg.solve(A,B)
+
 print(C)
+
 
 
 ## Output:
